@@ -1,22 +1,28 @@
 # Scope and evidence boundaries
 
-## Documented state
+## What is included
 
-Staging implementation; not a production-launch claim.
+This repository contains an executable, newly authored educational demo and deterministic Node tests. The code demonstrates a local publication-authority projection and an asynchronous latest-query-wins autocomplete controller using entirely synthetic fixtures.
 
-## Evidence basis
+## What execution demonstrates
 
-The implementation includes local PHP and Node regression coverage and records a provisional staging deployment. Formal acceptance and remaining hosting, styling and result-quality checks are not represented as complete.
+- Local policy prevents remote display metadata from reaching the public response.
+- Synthetic private, draft, missing, duplicate and unsafe-URL records are filtered.
+- Query validation, response shape checks and an explicit HTTP route allowlist fail closed.
+- Manually controlled promises verify race behavior without timing sleeps.
+- The local browser page provides visible status, combobox/listbox semantics, active-descendant updates and keyboard controls.
 
-The public narrative was prepared against retained implementation and verification artifacts. Those private references are not redistributed. Source inspection, recorded test results, staging observations and production deployment are different levels of evidence; none is silently substituted for another.
+## Separation from private work
 
-## Not claimed or distributed
+The demo is not copied from, connected to or a redistributable version of the original private implementation. It uses no real client source, names, domains, IDs, keys, provider configuration, product data, screenshots or assets. Private historical evidence is not included.
 
-- No search keys, index names, endpoint configuration or real query fixtures are published.
-- This is a focused search integration, not a full-site accessibility or security certification.
+## Non-claims
 
-## Public repository boundary
+- Not a full WordPress or WooCommerce plugin.
+- Not evidence of a currently deployed production system.
+- Not a provider integration or benchmark of result quality.
+- Not a purchase flow and not connected to actual products.
+- Not a full application security review or accessibility certification.
+- Not a substitute for browser, assistive-technology and platform-specific acceptance testing.
 
-Only newly written technical documentation and illustrative diagrams are included. There are no original application source files, datasets, screenshots, deployment scripts, credentials or inherited Git history. No business-performance figures or customer endorsements are asserted.
-
-The repository is intended for technical review of the engineering approach. It makes no grant of rights to the original private implementation or third-party dependencies.
+The original private implementation and this public educational demo are separate artifacts with separate evidence boundaries.

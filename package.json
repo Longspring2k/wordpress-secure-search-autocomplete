@@ -1,0 +1,10 @@
+{
+  "name": "secure-search-autocomplete-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node demo/run.mjs",
+    "start": "node demo/server.mjs"
+  }
+}
